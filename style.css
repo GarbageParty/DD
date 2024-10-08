@@ -1,0 +1,241 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-image: url(img/12133.jpg);
+}
+.logo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.logo img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.logo button {
+    display: flex;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+.header-derecha {
+    display: flex;
+    height: 50%;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+.redes {
+    display: flex;
+    width: 80%;
+    height: 40px;
+    justify-content: space-around;
+}
+.redes img {
+    display: flex;
+    width: 40px;
+}
+.redes button {
+    background: none;
+    cursor: pointer;
+    border: 0;
+    margin: 3px;
+}
+.barra {
+    display: flex;
+    width: 95%;
+    height: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.barra img {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+.buscador {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.buscador input {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(172, 172, 172);
+    border: 0;
+}
+.buscador button {
+    border: 0;
+}
+.buscador img {
+    display: flex;
+    width: 35px;
+    background-color:rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+}
+body {
+    background-image: url(img/6.jpg);
+    background-size: cover;
+}
+.titulo img {
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    justify-content: center;
+    padding: 10px;
+}
+nav {
+    max-width: 1500px;
+    margin: auto;
+    background-image: url(img/4006.jpg);
+    background-size: cover;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+}
+.menu-horizontal > li:hover {
+    background-color: rgb(39, 39, 39);
+    width: 190px;
+}
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 190px;
+    background-color: black
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+.menu-vertical li:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.menu-vertical li > a {
+    display: flex;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+    font-family: "Teko", sans-serif;
+    font-weight: ;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.espacio {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.espacio-izquierda {
+    display: flex;
+    padding: 10px;
+    width: auto;
+    height: 633px;
+}
+.espacio-derecha-global {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0%;
+}
+.espacio-derecha-arriba {
+    display: flex;
+}
+.espacio-derecha-arriba img {
+    display: flex;
+    margin: 10px;
+}
+.espacio-derecha-abajo {
+    display: flex;
+}
+.espacio-derecha-abajo img {
+    display: flex;
+    margin: 10px;
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 50px;
+}
+.section {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+.section h3 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.section p {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.reglas {
+    background-color: blue
+}
+.bodega {
+    background-color: azure;
+}
+
+.galeria-clases {
+    display: grid;
+    justify-items: center;
+    background-color: aqua;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.build {
+    width: 300px;
+    height: 400px
+}
+.build img {
+    width: 100%;
+    height: 100%;
+}
